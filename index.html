@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Grid Layout Portfolio</title>
+<style>
+	img {
+		width: 300px;
+	} figure {
+		width: 300px;
+		margin: 20px;
+		// background: pink;
+	} figcaption {
+		font: 14pt/1.4em 'Roboto Serif';
+		text-align: center; alignment-baseline: 
+	} div {
+		align-content: center;
+		width: 768px;
+		height: 512px;
+		margin: 0 auto;
+		// border: 1px dashed gray;
+		display: grid;
+		grid-template: auto / repeat(3,auto);
+	} h1 {
+		text-align: center;
+		font: 48pt/1.4em 'Dancing Script';
+	}
+</style>
+</head>
+
+<body> 
+	<h1>Grid Layout Portfolio</h1>
+	<div>
+	<figure>
+	<img src="updated_thumb_portrait.jpg" />
+	<figcaption>Portrait</figcaption>
+	</figure>
+	<figure>
+	<img src="updated_thumb_btf.jpg" />
+	<figcaption>Between Two Fires</figcaption>
+	</figure>
+	<figure>
+	<img src="updated_thumb_zeeple.jpg" />
+	<figcaption>Afton Sparv</figcaption>
+	</figure>
+	</div>
+</body>
+</html>
